@@ -54,7 +54,7 @@ const ProfileScreen = ({ location, history }) => {
     }
     return(
         <Row>
-            <Col md={3}>
+            <Col md={3} className='profile'>
                 <h2>User Profile</h2>
                 {message && <Message variant='danger'>{message}</Message>}
                 {error && <Message variant='danger'>{error}</Message>}

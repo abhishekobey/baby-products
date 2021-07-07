@@ -1,5 +1,7 @@
 main {
   min-height: 80vh;
+  background-size: cover;
+  background-image: url('./background-images/main-background.jpeg');
 }
 
 h3 {
@@ -44,4 +46,36 @@ h2 {
 }
 .carousel a {
   margin: 0 auto;
+}
+.carousel {
+  background-image: url('./background-images/carousel-bg.jpg');
+  background-repeat: round;
+}
+.header {
+  background-image: url('./background-images/navbar-background.jpg');
+}
+.footer {
+  color: white;
+  background-image: url('./background-images/navbar-background.jpg');
+}
+#card:hover {
+  background-color: rgb(226, 226, 226);
+  border-color: rgb(58, 100, 253);
+  box-shadow: 0 0 100px rgb(54, 187, 253);
+}
+table {
+  background-color: white;
+}
+.profile {
+  background-color: white;
+}
+.logo_var {
+  font-size: xx-large;
+  font-weight: lighter;
+}
+#search_box {
+  width: 20rem;
+}
+.product_screen {
+  background-color: white;
 }

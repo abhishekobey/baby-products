@@ -17,11 +17,20 @@ const Header = () => {
   }
 
   return (
-    <header>
-      <Navbar bg="dark" variant='dark' expand="lg" collapseOnSelect>
+    <header className='header'>
+      <Navbar variant='dark' expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Baby Products</Navbar.Brand>
+            <Navbar.Brand href="#home">
+              <img
+                src="/uploads/Asset 2.svg"
+                width="70"
+                height="50"
+                className="d-inline-block align-top"
+                alt="Baby Products"
+              />
+              <span className='logo_var'>Baby Products</span>
+            </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
