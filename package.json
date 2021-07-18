@@ -1,7 +1,7 @@
 {
   "name": "baby_products",
   "version": "1.0.0",
-  "description": "MERN shopping cart app",
+  "description": "MERN shopping",
   "main": "server.js",
   "type": "module",
   "scripts": {
