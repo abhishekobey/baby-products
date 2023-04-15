@@ -4,6 +4,9 @@
   "description": "MERN shopping",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "12.22.9"
+  },
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
